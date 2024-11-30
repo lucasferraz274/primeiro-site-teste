@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="cirador" name="Lucas_Ferraz">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#conta">Conta</a></li>
+                <li><a href="#carrinho"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        
+    </div>
+   <header>
+        <div class="container-1">
+            <div class="button-left">
+                <h2>A Beleza da Rotina Diária</h2>
+                <p>
+                    Em um mundo onde a agitação parece ser a norma, muitas vezes esquecemos a beleza que reside na rotina diária. Acordar todas as manhãs e sentir o cheiro do café fresco sendo preparado é um ritual que pode trazer conforto. O som da chaleira, o barulho do
+                    s pássaros lá fora, e a luz suave do sol entrando pela janela compõem um cenário simples, mas repleto de significado.
+                </p>
+                <button type="menu">ver mais &#8594</button>
+            </div>
+            <div class="button-right">
+                <img src="img/variedade-alimentar-de-dieta-flexivel-e-facil_23-2148955539.avif" alt="imagem de alimentos saudaveis">
+            </div>
+        </div>
+    </header>
+</body>
+</html>
