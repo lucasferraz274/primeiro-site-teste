@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+div{
+    margin-top: 50px;
+    text-align: justify;
+
+}
+ul{
+    background-color: rgb(39, 37, 37);
+    padding: 0;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    top: 0;
+    width: 100%;
+} 
+li{
+    float: left;
+    border-width: 1px solid #bbb; 
+}
+li:last-child{
+    border-width: none;
+    float: right;
+}
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: rgb(72, 255, 0);
+    transform: translatey(-5px);
+    transition: all 0.2s;
+}
+header{
+    background-color: radial-gradient(#fff,#bbb);
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.button-left{
+    height: 100%;
+    flex-basis: 50%;
+
+}
+.button-left h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+    
+}
+.button-left p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.button-left button{
+    background-color: rgb(4, 250, 4);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.2rem;
+    border-radius: 9999px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+.button-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-right img{
+    width: 115% auto;
+}
+.button-left button:hover{
+    background-color: green;
+    
+
+}
